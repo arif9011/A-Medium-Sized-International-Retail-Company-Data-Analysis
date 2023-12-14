@@ -43,7 +43,8 @@ Using the Calendar function a new table was created with a continuous list of da
 
 THe Schema was created to connect each data table with their unique keys. Product Codes, Store Codes, User IDs, Order Date/Shipping Dates
 
-![Schema](Schema.png)
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/dd6272f8-685e-41c7-b46e-34922eea8fce)
+
 
 Within this step another table was added to contain all measures that will be created in the following step.
 
