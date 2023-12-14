@@ -8,7 +8,7 @@ In this project I connected to a variety of sources in order to retrieve the req
 - Azure Blob Storage (Source of the Stores table)
 - A folder of .csv files (Source of the Customers table)
 
-# Milestone 2 Importing the Data into Power BI
+# Milestone 2: Importing the Data into Power BI
 An essential step for every data analysis project is carefully loading and cleaning data to ensure the most relevant an dinformative analysis. Hence, the beginning of this project involved loading in various tables namely; 'Orders', 'Products', 'Stores' and 'Customers'. The tables were loaded and transformed using various Get Data options including Azure SQL Database, CSV file, Azure Blob Storage and a folder.
 
 To ensure that all the data was relevant and of value, the following key transformations were made:
@@ -20,7 +20,7 @@ Calculated columns were created to convert necessary values so that the units ar
 Columns were combined to provide more informative information eg [First Name] and [Last Name] columns from 'Customers' table were combined to make [Full Name] column.
 All unused columns in tables were removed along with some being renamed in order to align with Power BI naming conventions.
 
-### Create the Data Model
+### Milestone 3: Create the Data Model
 
 The next step is to construct the data model for the project. This is creating a Date Table, a star based schema, using measures to incorporate important metrics and establishing date and geographic hierarchies.
 
