@@ -82,9 +82,5 @@ Revenue YTD
     
 #### Creating Date and Geography Hierarchies
 
-Creating Hieratchies will allow us to drill down on our report and perform greater analysis. Below show the 2 hierarchies created
-
-![Date Hierarchy](DateHierarchy.png)
-
-![Geography Hierarchy](GeographyHierarchy.png)
+Creating Hieratchies will allow us to drill down on our report and perform greater analysis.
 
