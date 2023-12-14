@@ -8,7 +8,7 @@ In this project I connected to a variety of sources in order to retrieve the req
 - Azure Blob Storage (Source of the Stores table)
 - A folder of .csv files (Source of the Customers table)
 
-# Importing the Data
+# Milestone 2 Importing the Data into Power BI
 An essential step for every data analysis project is carefully loading and cleaning data to ensure the most relevant an dinformative analysis. Hence, the beginning of this project involved loading in various tables namely; 'Orders', 'Products', 'Stores' and 'Customers'. The tables were loaded and transformed using various Get Data options including Azure SQL Database, CSV file, Azure Blob Storage and a folder.
 
 To ensure that all the data was relevant and of value, the following key transformations were made:
