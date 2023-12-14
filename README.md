@@ -3,7 +3,7 @@
 # Project Description 
 In this project I connected to a variety of sources in order to retrieve the required datasets - this included:
 
-- SQL Database (Source of the Orders table)
+- Azure SQL Database (Source of the Orders table)
 - A file of .CSV file ( Source of the Products Table)
 - Azure Blob Storage (Source of the Stores table)
 - A folder of .csv files (Source of the Customers table)
