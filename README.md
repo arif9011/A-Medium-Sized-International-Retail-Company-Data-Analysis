@@ -66,7 +66,7 @@ Total Profit
 
 Total Customers
 
-    Total Customers = COUNTROWS(DISTINCT(Orders[User ID]))
+    Total Customers = DISTINCTCOUNT(Orders[User ID])
 
 Total Quantity
 
