@@ -84,7 +84,11 @@ Revenue YTD
 
 Creating Hieratchies will allow us to drill down on our report and perform greater analysis.
 #### Milestone 4:  Set Up Report
-
+I have created  four report pages and name them as follows:
+Executive Summary
+Customer Detail
+Product Detail
+Stores Map
 
 #### Milestone 5: Build The Customer Detail Page 
 
@@ -104,4 +108,9 @@ See below.
 - Date Slicer
 
 These were fairly easy to produce, with time mainly taken to ensure they were formatted in a presentable way. However, the 'Top Customer Cards' were initially tricky as I couldn't produce a TopN filter, as I used the 'Card' visual. To get around this, I created 3 tables and then applied the TopN filter by adding the 'Full Name' column to each visual filter.
+
+### Screenshot of Customer Detal Page
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/68317608-8aca-4222-80ca-738cadee4904)
+
+
 
