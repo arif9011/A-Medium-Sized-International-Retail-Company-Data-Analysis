@@ -24,7 +24,7 @@ All unused columns in tables were removed along with some being renamed in order
 
 The next step is to construct the data model for the project. This is creating a Date Table, a star based schema, using measures to incorporate important metrics and establishing date and geographic hierarchies.
 
-#### Creating a Date Table
+### Creating a Date Table
 
 Using the Calendar function a new table was created with a continuous list of dates from the earliest order date to the latest shipping date. This Date table was filled out with new columns of the following
 
@@ -39,7 +39,7 @@ Using the Calendar function a new table was created with a continuous list of da
 - Start of Month
 - Start of Week
 
-#### Building the Star Schema Data Model
+### Building the Star Schema Data Model
 
 THe Schema was created to connect each data table with their unique keys. Product Codes, Store Codes, User IDs, Order Date/Shipping Dates
 
@@ -48,7 +48,7 @@ THe Schema was created to connect each data table with their unique keys. Produc
 
 Within this step another table was added to contain all measures that will be created in the following step.
 
-#### Creating Key Measures
+### Creating Key Measures
 
 A few key measures, that will come in use for the report. The below Key Measures have been added
 
@@ -83,12 +83,12 @@ Revenue YTD
 #### Creating Date and Geography Hierarchies
 
 Creating Hieratchies will allow us to drill down on our report and perform greater analysis.
-## Milestone 4:  Set Up Report
+#### Milestone 4:  Set Up Report
 
 
-## Milestone 5: Build The Customer Detail Page 
+#### Milestone 5: Build The Customer Detail Page 
 
-## Customer Detail Page <a name="S3"></a>
+#### Customer Detail Page <a name="S3"></a>
 I created the following visuals, whilst ensuring I followed a consistent format using the format tab for each visual:
 - Headline Card Visuals\
 Use the 'card' visual with total customers and a new measure, Revenue per Customer.
