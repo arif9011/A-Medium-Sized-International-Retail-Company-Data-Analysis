@@ -110,7 +110,8 @@ See below.
 These were fairly easy to produce, with time mainly taken to ensure they were formatted in a presentable way. However, the 'Top Customer Cards' were initially tricky as I couldn't produce a TopN filter, as I used the 'Card' visual. To get around this, I created 3 tables and then applied the TopN filter by adding the 'Full Name' column to each visual filter.
 
 ### Screenshot of Customer Detal Page
-![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/68317608-8aca-4222-80ca-738cadee4904)
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/e9aca39c-e6b6-4e95-a8de-5749353d69bc)
+
 
 
 
