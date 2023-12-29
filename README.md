@@ -85,10 +85,10 @@ Revenue YTD
 Creating Hieratchies will allow us to drill down on our report and perform greater analysis.
 #### Milestone 4:  Set Up Report
 I have created  four report pages and name them as follows:
-Executive Summary
-Customer Detail
-Product Detail
-Stores Map
+Executive Summary,
+Customer Detail,
+Product Detail,
+and Stores Map.
 
 #### Milestone 5: Build The Customer Detail Page 
 
