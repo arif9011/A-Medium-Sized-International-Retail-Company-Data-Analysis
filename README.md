@@ -124,14 +124,16 @@ I duplicated many of the visuals from the Customer Details page to create the fo
 - A bar chart of Total Orders by Category
 - KPI Visuals
 
-To create KPI Visuals I needed to create three measures such as  Previous Quarter Profit, Previous Quarter Revenue and Previous Quarter Orders,
+To create KPI Visuals I needed to create three measures such as  Previous Quarter Profit, Previous Quarter Revenue and Previous Quarter Orders.
 
 ```
 Previous Quarter Profit = CALCULATE([TotalProfit], PREVIOUSQUARTER('Date'[Date]))
-
 Previous Quarter Revenue = CALCULATE([Total Revenue], PREVIOUSQUARTER(Dates[Date]))
 Previous Quarter Orders = CALCULATE([Total Orders], PREVIOUSQUARTER(Dates[Date]))
 ```
+
+## Screenshot of Executive Summary Page 
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/b3a894ba-4748-42aa-93c7-38ddd678bd26)
 
 
 
