@@ -112,6 +112,26 @@ These were fairly easy to produce, with time mainly taken to ensure they were fo
 ### Screenshot of Customer Detal Page
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/e9aca39c-e6b6-4e95-a8de-5749353d69bc)
 
+#### Milestone 6: Create an Executive Summary Page
+
+## Executive Summary Page <a name="S4"></a>
+
+I duplicated many of the visuals from the Customer Details page to create the following visuals for the Executive Page:
+
+- Total Revenue, Total Orders and Total Profit card visuals
+- A line chart with Total Profit
+- Donut charts for Revenue
+- A bar chart of Total Orders by Category
+- KPI Visuals
+
+To create KPI Visuals I needed to create three measures such as  Previous Quarter Profit, Previous Quarter Revenue and Previous Quarter Orders,
+```
+Previous Quarter Profit = CALCULATE([TotalProfit], PREVIOUSQUARTER('Date'[Date]))
+
+Previous Quarter Revenue = CALCULATE([Total Revenue], PREVIOUSQUARTER(Dates[Date]))
+Previous Quarter Orders = CALCULATE([Total Orders], PREVIOUSQUARTER(Dates[Date]))
+```
+
 
 
 
