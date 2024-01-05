@@ -165,6 +165,12 @@ On this page, it is useful to provide a slicer toolbar for clarity and not clutt
 
 Using a button that links to a bookmark, a menu is opened that allows slicing on the page for product category and country, this menu can be closed again with the back button linking to a bookmark of the original page, whilst also keeping the changes of data.
 
+### Screenshot of Product Detail Page
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/602e68d6-f786-4bf9-8a1d-8306ffb63702)
+
+
+
+
 
 
 
