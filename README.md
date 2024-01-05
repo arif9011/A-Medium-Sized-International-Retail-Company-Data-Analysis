@@ -137,6 +137,20 @@ Previous Quarter Orders = CALCULATE([Total Orders], PREVIOUSQUARTER(Dates[Date])
 
 
 
+### Mileston 7: Create a Product Detail Page
+The purpose of this page is provide an in-depth look at which products within the inventory are performing well, with the option to filter by product and region.
+
+To achieve this, I built a report page that provides insights for all products and regions combined.
+
+Additionally, to allow the users of the report filter data easily, I created a pop-up banner using bookmarks add a slicer toolbar which can be accessed from the navigation pane.
+
+The Product Detail page I created contains the following visuals:
+
+- Card visuals to show which filters are currently selected
+- Gauge visuals to show how the selected category's revenue, profit and number of orders are performing against a quarterly target
+- An area chart showing relative revenue performance of each category over time
+- A table showing the top 10 products by revenue in the selected context
+- A scatter graph of quantity ordered against profit per item for products in the current context
 
 
 
