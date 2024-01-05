@@ -109,7 +109,7 @@ See below.
 
 These were fairly easy to produce, with time mainly taken to ensure they were formatted in a presentable way. However, the 'Top Customer Cards' were initially tricky as I couldn't produce a TopN filter, as I used the 'Card' visual. To get around this, I created 3 tables and then applied the TopN filter by adding the 'Full Name' column to each visual filter.
 
-### Screenshot of Customer Detal Page
+### Screenshot of Customer Detail Page
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/ea92bd06-bc3f-4626-b9c5-f30a7f057c1b)
 
 #### Milestone 6: Create an Executive Summary Page
