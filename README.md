@@ -147,10 +147,23 @@ Additionally, to allow the users of the report filter data easily, I created a p
 The Product Detail page I created contains the following visuals:
 
 - Card visuals to show which filters are currently selected
-- Gauge visuals to show how the selected category's revenue, profit and number of orders are performing against a quarterly target
+- Gauge visuals to show how the selected category's revenue, profit and number of orders are performing against a quarterly target 
 - An area chart showing relative revenue performance of each category over time
 - A table showing the top 10 products by revenue in the selected context
 - A scatter graph of quantity ordered against profit per item for products in the current context
+- Created a new calculated column called [Profit per Item] in the Products table, by using a DAX formula to work out the profit per item
+  ```
+  Profit per Item = Products[Sale price] - Products[Cost price]
+  ```
+  
+
+
+Slicer Toolbar
+On this page, it is useful to provide a slicer toolbar for clarity and not cluttering the page.
+### Screenshot OF slicer Toolbar
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/d9302a9e-0472-4ce0-a160-3eb08463bb9c)
+
+Using a button that links to a bookmark, a menu is opened that allows slicing on the page for product category and country, this menu can be closed again with the back button linking to a bookmark of the original page, whilst also keeping the changes of data.
 
 
 
