@@ -110,7 +110,7 @@ See below.
 These were fairly easy to produce, with time mainly taken to ensure they were formatted in a presentable way. However, the 'Top Customer Cards' were initially tricky as I couldn't produce a TopN filter, as I used the 'Card' visual. To get around this, I created 3 tables and then applied the TopN filter by adding the 'Full Name' column to each visual filter.
 
 ### Screenshot of Customer Detal Page
-![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/e9aca39c-e6b6-4e95-a8de-5749353d69bc)
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/ea92bd06-bc3f-4626-b9c5-f30a7f057c1b)
 
 #### Milestone 6: Create an Executive Summary Page
 
@@ -133,7 +133,8 @@ Previous Quarter Orders = CALCULATE([Total Orders], PREVIOUSQUARTER(Dates[Date])
 ```
 
 ## Screenshot of Executive Summary Page 
-![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/b3a894ba-4748-42aa-93c7-38ddd678bd26)
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/2982a080-58e6-470e-bdea-fa016c4fbd8c)
+
 
 
 
