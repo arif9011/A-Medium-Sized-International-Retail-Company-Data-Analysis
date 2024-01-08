@@ -160,7 +160,7 @@ The Product Detail page I created contains the following visuals:
 
 Slicer Toolbar
 On this page, it is useful to provide a slicer toolbar for clarity and not cluttering the page.
-### Screenshot OF slicer Toolbar
+### Screenshot of Slicer Toolbar
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/d9302a9e-0472-4ce0-a160-3eb08463bb9c)
 
 Using a button that links to a bookmark, a menu is opened that allows slicing on the page for product category and country, this menu can be closed again with the back button linking to a bookmark of the original page, whilst also keeping the changes of data.
@@ -208,7 +208,7 @@ The Gauge visual compares against the current YTD against the previous YTD at th
 
 #### Tooltip Page
 I wanted users to be able to see each store's year-to-date profit performance against the profit target just by hovering the mouse over a store on the map. To do this, I created a custom tooltip page with a profit gauge visual, and then set the tooltip of the visual to the tooltip page I have created
-### Screenshot Tooltip Page
+### Screenshot of Tooltip Page
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/c2e1f195-47e2-4dce-8c76-e51bf6986ce3)
 
 This is case, the tooltip page adds mathematical information to the map visualisation in 'Stores Map' report page. To reveal the tooltip, simply hover over the data of interest in the visualisation in the 'Stores Map' page. 
