@@ -207,10 +207,9 @@ The Gauge visual compares against the current YTD against the previous YTD at th
 
 
 #### Tooltip Page
-Unlike the other pages, which are report pages, this page is a tooltip page. This page is created seperate to the 'Stores Map' page, but provides insightful information on the map visualisation .
+I wanted users to be able to see each store's year-to-date profit performance against the profit target just by hovering the mouse over a store on the map. To do this, I created a custom tooltip page with a profit gauge visual, and then set the tooltip of the visual to the tooltip page I have created
 ### Screenshot Tooltip Page
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/c2e1f195-47e2-4dce-8c76-e51bf6986ce3)
-
 
 This is case, the tooltip page adds mathematical information to the map visualisation in 'Stores Map' report page. To reveal the tooltip, simply hover over the data of interest in the visualisation in the 'Stores Map' page. 
 
