@@ -168,6 +168,53 @@ Using a button that links to a bookmark, a menu is opened that allows slicing on
 ### Screenshot of Product Detail Page
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/602e68d6-f786-4bf9-8a1d-8306ffb63702)
 
+### Mileston 8: Create a Stores Map Page
+### 4. Stores Map
+ added a Stores Map page, which lead to me creating a drillthrough and toolkit page to help navigation through the map visual:
+
+- Adding a map visual
+- Add a country tile slicer to the top of the page
+- Create a drillthrough page with the visuals that I need - the important note here is to add the Country column to the drillthrough option on the drillthrough page which allows you to right-click on the map visual to drillthrough
+- Create a tooltip page with a Profit YTD gauge
+I need to makesure this tooltip option is enabled and scaled correctly.
+To enable, go to File - Options and Settings - Options - Preview Features - Check 'Modern Visual Tooltips' and restart Power BI.
+To ensure the Tooltip is scaled, go to File - Options and Settings - Options - Report Settings - Tooltips Auto-Scale.
+
+#### Map
+Using a map visualisation is perfect for understanding geographical data. It allows the user to visually see the distribtuion of the stores, along with an indication of their concentration.
+### Slicer (Tile)
+The slicer visualisation allows the map visualisation to change depending on the geographical location selected. This means that the user can cater the visualisation to the geographical locations that are of concern to them.
+
+### Screenshot of Storers Map Page
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/0d32ee04-9c88-48c9-bfad-6d7aaad0deeb)
+
+For the location, a hierarchy has been used, which means that the user can drill up and down the map to see 'World Region', 'Country' and 'Country Region'.
+
+
+#### Create Stores Drillthrough page
+I also created a Stores drillthrough page that summarises each store's performance. I built this page to make it easy for the region managers to check on the progress of a given store.
+This Stores drillthrough page allows a summary for an individual store.
+It contains:
+- A Top 5 products, showing Profit YTD, Total Orders, Total Revenue
+- A Column chart showing total orders by products
+- Gauge for Profit YTD and Revenue YTD against target
+- Card Visual for current store
+The Gauge visual compares against the current YTD against the previous YTD at the point in the year where the target is a 20% increase.
+
+#### Screenshot of Stores Drillthrough page
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/709066ae-100f-421f-91f3-1c2628f0a338)
+
+
+
+#### Tooltip Page
+Unlike the other pages, which are report pages, this page is a tooltip page. This page is created seperate to the 'Stores Map' page, but provides insightful information on the map visualisation .
+### Screenshot Tooltip Page
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/c2e1f195-47e2-4dce-8c76-e51bf6986ce3)
+
+
+This is case, the tooltip page adds mathematical information to the map visualisation in 'Stores Map' report page. To reveal the tooltip, simply hover over the data of interest in the visualisation in the 'Stores Map' page. 
+
+
 
 
 
