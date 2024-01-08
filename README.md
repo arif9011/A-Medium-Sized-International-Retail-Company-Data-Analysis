@@ -1,6 +1,6 @@
-### Data Analytics Power BI
+#### Data Analytics Power BI Report
 
-### Project Description 
+#### Project Description 
 In this project I connected to a variety of sources in order to retrieve the required datasets - this included:
 
 - Azure SQL Database (Source of the Orders table)
@@ -8,7 +8,7 @@ In this project I connected to a variety of sources in order to retrieve the req
 - Azure Blob Storage (Source of the Stores table)
 - A folder of .csv files (Source of the Customers table)
 
-### Milestone 2: Importing the Data into Power BI
+#### Milestone 2: Importing the Data into Power BI
 An essential step for every data analysis project is carefully loading and cleaning data to ensure the most relevant an dinformative analysis. Hence, the beginning of this project involved loading in various tables namely; 'Orders', 'Products', 'Stores' and 'Customers'. The tables were loaded and transformed using various Get Data options including Azure SQL Database, CSV file, Azure Blob Storage and a folder.
 
 To ensure that all the data was relevant and of value, the following key transformations were made:
@@ -20,11 +20,11 @@ Calculated columns were created to convert necessary values so that the units ar
 Columns were combined to provide more informative information eg [First Name] and [Last Name] columns from 'Customers' table were combined to make [Full Name] column.
 All unused columns in tables were removed along with some being renamed in order to align with Power BI naming conventions.
 
-### Milestone 3: Create the Data Model
+#### Milestone 3: Create the Data Model
 
 The next step is to construct the data model for the project. This is creating a Date Table, a star based schema, using measures to incorporate important metrics and establishing date and geographic hierarchies.
 
-### Creating a Date Table
+#### Creating a Date Table
 
 Using the Calendar function a new table was created with a continuous list of dates from the earliest order date to the latest shipping date. This Date table was filled out with new columns of the following
 
@@ -39,7 +39,7 @@ Using the Calendar function a new table was created with a continuous list of da
 - Start of Month
 - Start of Week
 
-### Building the Star Schema Data Model
+#### Building the Star Schema Data Model
 
 THe Schema was created to connect each data table with their unique keys. Product Codes, Store Codes, User IDs, Order Date/Shipping Dates
 
@@ -48,7 +48,7 @@ THe Schema was created to connect each data table with their unique keys. Produc
 
 Within this step another table was added to contain all measures that will be created in the following step.
 
-### Creating Key Measures
+#### Creating Key Measures
 
 A few key measures, that will come in use for the report. The below Key Measures have been added
 
@@ -109,12 +109,12 @@ See below.
 
 These were fairly easy to produce, with time mainly taken to ensure they were formatted in a presentable way. However, the 'Top Customer Cards' were initially tricky as I couldn't produce a TopN filter, as I used the 'Card' visual. To get around this, I created 3 tables and then applied the TopN filter by adding the 'Full Name' column to each visual filter.
 
-### Screenshot of Customer Detail Page
+#### Screenshot of Customer Detail Page
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/ea92bd06-bc3f-4626-b9c5-f30a7f057c1b)
 
 #### Milestone 6: Create an Executive Summary Page
 
-## Executive Summary Page <a name="S4"></a>
+#### Executive Summary Page <a name="S4"></a>
 
 I duplicated many of the visuals from the Customer Details page to create the following visuals for the Executive Page:
 
@@ -132,12 +132,12 @@ Previous Quarter Revenue = CALCULATE([Total Revenue], PREVIOUSQUARTER(Dates[Date
 Previous Quarter Orders = CALCULATE([Total Orders], PREVIOUSQUARTER(Dates[Date]))
 ```
 
-## Screenshot of Executive Summary Page 
+#### Screenshot of Executive Summary Page 
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/2982a080-58e6-470e-bdea-fa016c4fbd8c)
 
 
 
-### Mileston 7: Create a Product Detail Page
+#### Mileston 7: Create a Product Detail Page
 The purpose of this page is provide an in-depth look at which products within the inventory are performing well, with the option to filter by product and region.
 
 To achieve this, I built a report page that provides insights for all products and regions combined.
@@ -160,16 +160,16 @@ The Product Detail page I created contains the following visuals:
 
 Slicer Toolbar
 On this page, it is useful to provide a slicer toolbar for clarity and not cluttering the page.
-### Screenshot of Slicer Toolbar
+#### Screenshot of Slicer Toolbar
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/d9302a9e-0472-4ce0-a160-3eb08463bb9c)
 
 Using a button that links to a bookmark, a menu is opened that allows slicing on the page for product category and country, this menu can be closed again with the back button linking to a bookmark of the original page, whilst also keeping the changes of data.
 
-### Screenshot of Product Detail Page
+#### Screenshot of Product Detail Page
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/602e68d6-f786-4bf9-8a1d-8306ffb63702)
 
-### Mileston 8: Create a Stores Map Page
-### 4. Stores Map
+#### Mileston 8: Create a Stores Map Page
+#### Stores Map
  added a Stores Map page, which lead to me creating a drillthrough and toolkit page to help navigation through the map visual:
 
 - Adding a map visual
@@ -182,10 +182,10 @@ To ensure the Tooltip is scaled, go to File - Options and Settings - Options - R
 
 #### Map
 Using a map visualisation is perfect for understanding geographical data. It allows the user to visually see the distribtuion of the stores, along with an indication of their concentration.
-### Slicer (Tile)
+#### Slicer (Tile)
 The slicer visualisation allows the map visualisation to change depending on the geographical location selected. This means that the user can cater the visualisation to the geographical locations that are of concern to them.
 
-### Screenshot of Storers Map Page
+#### Screenshot of Storers Map Page
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/0d32ee04-9c88-48c9-bfad-6d7aaad0deeb)
 
 For the location, a hierarchy has been used, which means that the user can drill up and down the map to see 'World Region', 'Country' and 'Country Region'.
@@ -208,7 +208,7 @@ The Gauge visual compares against the current YTD against the previous YTD at th
 
 #### Tooltip Page
 I wanted users to be able to see each store's year-to-date profit performance against the profit target just by hovering the mouse over a store on the map. To do this, I created a custom tooltip page with a profit gauge visual, and then set the tooltip of the visual to the tooltip page I have created
-### Screenshot of Tooltip Page
+#### Screenshot of Tooltip Page
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/c2e1f195-47e2-4dce-8c76-e51bf6986ce3)
 
 This is case, the tooltip page adds mathematical information to the map visualisation in 'Stores Map' report page. To reveal the tooltip, simply hover over the data of interest in the visualisation in the 'Stores Map' page. 
