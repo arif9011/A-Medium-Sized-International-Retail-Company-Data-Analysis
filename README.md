@@ -236,7 +236,7 @@ There was only one visualisation whose interaction was changed in the 'Product D
 
 #### Navigation Bar
 
-Click on Insert - Buttons - Blank to insert a blank button to allow you to edit the visual using the format visual options in the visualisation pane. Under 'Style' you can add an icon and a fill, which changes the colour of the navigation button if you hover over it (state: on hover). To ensure the button actions as a navigation button click on the action dropdown and change type to page navigation, using the destination dropdown to choose the relevant page.
+Click on Insert - Buttons - Blank to insert a blank button to allow you to edit the visual using the format visual options in the visualisation pane. Under 'Style' you can add an icon and a fill, which changes the colour of the navigation button if you hover over it (state: on hover). To ensure the button actions as a navigation button click on the action dropdown and change type to page navigation, using the destination dropdown to choose the relevant page.Finally I have made a group the buttons together, and copy them across to the other pages.
 
 In order from top to buttom, the buttons relate to the following pages:
 
