@@ -214,6 +214,43 @@ I wanted users to be able to see each store's year-to-date profit performance ag
 This is case, the tooltip page adds mathematical information to the map visualisation in 'Stores Map' report page. To reveal the tooltip, simply hover over the data of interest in the visualisation in the 'Stores Map' page. 
 
 
+#### Milestone 9: Cross-filtering and Navigation
+Cross-filtering and creating a navigation pane help to bring structure to the overall Power BI report as well as making the pages easier to navigate and analyse.
+
+#### Cross-filtering
+Cross-filtering is an interaction between visuals on a report page, which causes visuals to chaneg based on filters applied on other visuals. However, sometimes there are visuals where we would not like cross-filtering to occur as to causes more mess and confusion than being a helpful insight.
+
+To alter the cross-filtering of a visualisation, one needs to got to 'Format' in the ribbon and then to 'Edit Interactions'.
+
+For this project, I needed to alter the cross-filtering for the following report pages:
+
+- Executive Summary
+- Customer Detail
+- Product Detail
+
+For 'Executive Summary' page, I altered the cross-filtering so that the 'Orders by Category' stacked chart and the 'Top 10 Products' table would not filter the card visuals or KPIs. Moreover, I edited the interactions between visuals so that the 'Top 10 Products' table would not affect any of the other visuals.
+
+In the 'Customer Detail' page, I made sure that the 'Top 20 Customers' table does not filter any of the other visuals. In addition, the interaction between the 'Total Customers by Category' stacked chart and the 'Total Customers' line graph was altered so that the stacked chart does not affect the line graph. Finally, the 'Total Customers by Country' donut chart was edited so that it cross-filters the 'Total Customers by Category' stacked chart.
+
+There was only one visualisation whose interaction was changed in the 'Product Detail' page, which was the 'Quantity Sold vs Profit per Item' scatter graph. This change resulted in ensuring that the scatter graph does not affect any of the other visuals.
+
+#### Navigation Bar
+
+Click on Insert - Buttons - Blank to insert a blank button to allow you to edit the visual using the format visual options in the visualisation pane. Under 'Style' you can add an icon and a fill, which changes the colour of the navigation button if you hover over it (state: on hover). To ensure the button actions as a navigation button click on the action dropdown and change type to page navigation, using the destination dropdown to choose the relevant page.
+
+In order from top to buttom, the buttons relate to the following pages:
+
+- Executive Summary
+- Customer Detail
+- Product Detail
+- Stores Map
+#### Screenshoot of Navigation 
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/205e58fa-0351-4daa-8c38-957221d4531e)
+
+
+
+
+
 
 
 
