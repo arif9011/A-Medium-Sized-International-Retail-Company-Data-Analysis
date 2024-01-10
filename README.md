@@ -249,7 +249,7 @@ In order from top to buttom, the buttons relate to the following pages:
 
 
 #### Milestone 10: Create Metrics for Users Outside the Company Using SQL
-I finished this project by creating metrics for users outside the company using SQL. To do this, I:
+I finished this project by creating metrics for users outside the company using SQL. Using VisualStudio and the SQLTools extension, I created a connection to the Postgres database server hosted on Microsoft Azure by the following Step:
 
 - Connected to the SQL Server through VSCode\
 Connection Name: OrdersDB\
