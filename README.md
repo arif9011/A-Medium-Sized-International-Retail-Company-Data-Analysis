@@ -261,7 +261,7 @@ Username: ****\
 Password: Ask on connect\
 I done this using the SQLTools extension which you can get in the extensions tab, and I used the PostgreSQL connection.
 
-- I printed the list of tables and columns within the tables, to help me with my queries.
+- I printed the list of tables and columns within the tables, to help me with my queries and I save List of Tables Name and List of the Columns as a CSV file.
 
 #### Screenshot List of Tables Name
 
