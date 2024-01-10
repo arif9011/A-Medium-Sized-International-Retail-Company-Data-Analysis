@@ -244,7 +244,7 @@ In order from top to buttom, the buttons relate to the following pages:
 - Customer Detail
 - Product Detail
 - Stores Map
-#### Screenshoot of Navigation 
+#### Screenshot of Navigation 
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/205e58fa-0351-4daa-8c38-957221d4531e)
 
 
@@ -270,6 +270,34 @@ I done this using the SQLTools extension which you can get in the extensions tab
 #### Screenshot List of the Columns
 
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/cfe115ab-beb9-4e0c-a070-d628fa0c7684)
+
+Q1. How many staff are there in all of the UK stores?
+#### Screenshot
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/64f4e286-b7ec-401c-a7bf-5e74f352ddf4)
+
+Q2. Which month in 2022 has had the highest revenue?
+
+#### Screenshot
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/262da106-572e-487b-8dfe-0c569c27701f)
+
+Q3. Which German store type had the highest revenue for 2022?
+#### Screenshot
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/f7d734b9-14a5-485b-838f-19dffa11054d)
+
+Q4. Create a view where the rows are the store types and the columns are the total sales, percentage of total sales and the count of orders.
+#### Screenshot
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/b5297288-944a-4f1b-9b5f-75470f54a16c)
+
+Q5. Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
+
+#### Screenshot
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/d095c150-923f-4f35-aef5-1033e14e2157)
+
+
+
+
+
+
 
 
 
