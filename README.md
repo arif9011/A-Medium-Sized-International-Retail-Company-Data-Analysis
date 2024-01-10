@@ -248,6 +248,20 @@ In order from top to buttom, the buttons relate to the following pages:
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/205e58fa-0351-4daa-8c38-957221d4531e)
 
 
+#### Milestone 10: Create Metrics for Users Outside the Company Using SQL
+I finished this project by creating metrics for users outside the company using SQL. To do this, I:
+
+- Connected to the SQL Server through VSCode\
+Connection Name: OrdersDB\
+Connect using: Server and Port\
+Server address: powerbi-data-analytics-server.postgres.database.azure.com\
+Port: 5432\
+Database: orders-db\
+Username: ****\
+Password: Ask on connect\
+I done this using the SQLTools extension which you can get in the extensions tab, and I used the PostgreSQL connection.
+
+- I printed the list of tables and columns within the tables, to help me with my queries, shown in the following screenshot:
 
 
 
