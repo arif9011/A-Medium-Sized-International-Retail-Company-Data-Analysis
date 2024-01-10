@@ -263,6 +263,12 @@ I done this using the SQLTools extension which you can get in the extensions tab
 
 - I printed the list of tables and columns within the tables, to help me with my queries, shown in the following screenshot:
 
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/490819c6-6902-433e-b400-2ed42c08efcb)
+
+![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/cfe115ab-beb9-4e0c-a070-d628fa0c7684)
+
+
+
 
 
 
