@@ -261,9 +261,13 @@ Username: ****\
 Password: Ask on connect\
 I done this using the SQLTools extension which you can get in the extensions tab, and I used the PostgreSQL connection.
 
-- I printed the list of tables and columns within the tables, to help me with my queries, shown in the following screenshot:
+- I printed the list of tables and columns within the tables, to help me with my queries.
+
+#### Screenshot List of Tables Name
 
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/490819c6-6902-433e-b400-2ed42c08efcb)
+
+#### Screenshot List of the Columns
 
 ![image](https://github.com/arif9011/Data-Analytics-Power-BI-Report/assets/115591569/cfe115ab-beb9-4e0c-a070-d628fa0c7684)
 
