@@ -1,4 +1,4 @@
--- How many staff are there in all of the UK stores?
+-- Q1. How many staff are there in all of the UK stores?
 SELECT * FROM dim_store;
 
 SELECT 

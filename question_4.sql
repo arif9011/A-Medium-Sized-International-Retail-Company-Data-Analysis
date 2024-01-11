@@ -1,4 +1,4 @@
--- Create a view where the rows are the store types and the columns are the total sales and count of orders.
+-- Q4. Create a view where the rows are the store types and the columns are the total sales and count of orders.
 SELECT * FROM dim_store;
 
 SELECT * FROM orders;

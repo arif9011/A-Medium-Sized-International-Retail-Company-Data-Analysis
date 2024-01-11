@@ -1,4 +1,4 @@
--- Which German store type had the highest revenue for 2022?
+-- Q3. Which German store type had the highest revenue for 2022?
 SELECT * FROM dim_store;
 
 SELECT * FROM dim_date;

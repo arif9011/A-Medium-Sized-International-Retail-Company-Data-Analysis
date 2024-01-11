@@ -1,4 +1,4 @@
--- Which month in 2022 has had the highest revenue?
+-- Q2. Which month in 2022 has had the highest revenue?
 SELECT * FROM dim_date;
 
 SELECT * FROM orders;

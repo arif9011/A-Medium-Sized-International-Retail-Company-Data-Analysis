@@ -1,4 +1,4 @@
--- Which product category generated the most profit for the 'Wiltshire, UK' region in 2021?
+-- Q5. Which product category generated the most profit for the 'Wiltshire, UK' region in 2021?
 SELECT * FROM dim_product;
 
 SELECT * FROM dim_store;
