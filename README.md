@@ -1,4 +1,4 @@
-#### A Medium-Sized International Retail Company Data Analysis.
+#### A Medium-Sized International Retail Company Data Analysis Power BI Report
 
 #### Project Description 
 In this project I connected to a variety of sources in order to retrieve the required datasets - this included:
